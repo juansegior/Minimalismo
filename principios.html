@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Principios & Recursos — Minimalismo</title>
+    <link rel="stylesheet" href="styles.css?v=5" />
+  </head>
+  <body>
+    <!-- Header (mismo header del sitio) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">PRINCIPIOS</a>
+
+        <nav class="primary-nav" aria-label="Principal">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="historia.html" class="nav-link">Historia</a>
+          <a href="autores.html "class="nav-link">Autores</a>
+          <a href="galeria.html" class="nav-link">Galeria</a>
+        </nav>
+
+        <button class="profile" aria-label="Perfil">
+          <span class="sr-only">Abrir perfil</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container page-principios">
+      <!-- Título -->
+      <header class="page-head">
+        <h1>Principios<br>&amp; Recursos</h1>
+      </header>
+
+      <!-- Grid principal 2 columnas -->
+      <section class="p-grid">
+        <!-- Columna izquierda: imagen grande -->
+        <figure class="p-media p-media--lg">
+          <img src="img/principios.png" alt="Composición minimalista principal" />
+        </figure>
+
+        <!-- Columna derecha: bloque 'Vacío' -->
+        <div class="p-stack">
+          <figure class="p-media">
+            <img src="img/vacio.png" alt="Ejemplo del principio 'Vacío' o espacio en blanco" />
+          </figure>
+
+          <div class="p-block">
+            <h2>Vacío</h2>
+            <ul class="bullets">
+              <li>Espacio en blanco como elemento.</li>
+              <li>Jerarquía por ausencia.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Fila inferior: dos tarjetas -->
+        <article class="p-card">
+          <figure class="p-media">
+            <img src="img/geometria.png" alt="Forma básica — geometría elemental" />
+          </figure>
+          <h3>Forma Básica</h3>
+          <ul class="bullets">
+            <li>Geometría elemental (cubo, plano, línea).</li>
+            <li>Reducción a lo esencial.</li>
+          </ul>
+        </article>
+
+        <article class="p-card">
+          <figure class="p-media">
+            <img src="img/repeticion.png" alt="Repetición — módulos y ritmo" />
+          </figure>
+          <h3>Repetición</h3>
+          <ul class="bullets">
+            <li>Módulo, serie y ritmo visual.</li>
+            <li>Orden y coherencia.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- CTA / Recursos -->
+      <section class="cta" aria-labelledby="cta-title">
+        <div class="cta__inner">
+          <h2 id="cta-title">Recursos curados para profundizar</h2>
+          <a class="btn btn--ghost" href="index.html#recursos">Explorar recursos</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© Minimalismo. Diseño limpio y contenido esencial.</small>
+      </div>
+    </footer>
+  </body>
+</html>
